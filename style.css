@@ -1,3 +1,10 @@
+/** 
+ * Name:Siddharth Mahendrabhai Nahar
+ * Student ID:000930031
+ * Date:01-10-2024
+ * Course:Fall 2024 Web Application Development (CPRG-210-A)
+ * Assignment 1 : HTML-CSS-JS Daily Assignments
+*/
 html,
 body {
     margin: 0;
@@ -10,6 +17,13 @@ body {
     border: rgb(85, 169, 108) 2px solid
 }
 
+.navbar-image-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+}
+
 .page {
     overflow: auto;
     height: 100%;
@@ -19,6 +33,7 @@ body {
 .header-image {
     width: 112px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .header-title {
@@ -35,6 +50,7 @@ body {
 }
 
 .register-contactus {
+    width: 40%;
     display: flex;
     justify-content: space-evenly;
     height: 170px;
@@ -50,6 +66,15 @@ body {
     background-color: azure;
 }
 
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+
+.link-navbar {
+    color: black !important;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -57,8 +82,6 @@ body {
 }
 
 .register-container {
-    /* border: black 2px solid; */
-    /* height: 96%; */
     padding: 30px 25px 28px;
     margin-left: 23px;
     max-width: 50%;
@@ -101,7 +124,7 @@ body {
 
 .image-wrapper img {
     width: 100%;
-    height: auto;
+    height: 100%;
     cursor: pointer;
 }
 
@@ -121,21 +144,6 @@ body {
     align-items: center;
 }
 
-/* The Close Button */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
 .countdown {
     display: contents;
 }
@@ -150,11 +158,6 @@ body {
     visibility: visible;
 }
 
-.form-group {
-    position: relative;
-    /* margin-bottom: 30px; */
-}
-
 .title-head {
     font-size: larger;
     font-weight: bold;
@@ -164,4 +167,8 @@ body {
 .agents-list {
     margin-left: 15px;
     margin-top: 8px;
+}
+
+.register img {
+    height: 100%;
 }

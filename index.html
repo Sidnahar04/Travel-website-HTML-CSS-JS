@@ -1,3 +1,10 @@
+<!-- 
+Name:Siddharth Mahendrabhai Nahar
+Student ID:000930031
+Date:01-10-2024
+Course:Fall 2024 Web Application Development (CPRG-210-A)
+Assignment 1 : HTML-CSS-JS Daily Assignments
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,8 +21,11 @@
     <div class="page">
         <header>
             <nav class="navbar navbar-expand-lg">
-                <img class="header-image" src="./images/vintage-adventure-logo.avif" alt="Travel Bliss">
-                <span class="header-title">Travel Bliss</span>
+                <div class="navbar-image-title">
+                    <a class="header-link" href="./index.html"><img class="header-image"
+                            src="./images/vintage-adventure-logo.avif" alt="Travel Bliss"></a>
+                    <span class="header-title"><a class="header-link" href="./index.html">Travel Bliss</a></span>
+                </div>
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
@@ -24,13 +34,13 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link link-navbar" aria-current="page" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./register.html">Register</a>
+                                <a class="nav-link link-navbar" href="./register.html">Register</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./contact.html">Contact us</a>
+                                <a class="nav-link link-navbar" href="./contact.html">Contact us</a>
                             </li>
                         </ul>
                     </div>
@@ -54,9 +64,9 @@
 
         </div>
         <br>
-        <div class="col-5 register-contactus">
+        <div class="register-contactus">
             <div class="contact">
-                <a href="./contact.html"><img src="./images/contactus.jpg"></a>
+                <a href="./contact.html"><img class="contact-img" src="./images/contactus.jpg"></a>
             </div>
             <div class="register">
                 <a href="./register.html"><img src="./images/register.jpg"></a>
